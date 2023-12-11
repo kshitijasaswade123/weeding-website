@@ -1,0 +1,165 @@
+.text-primary {
+    color      : #fd5d5d !important;
+    font-family: 'Brush Script MT', cursive;
+    font-size  : 3rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+#navbarSupportedContent ul li a {
+    font-family: 'Petit Formal Script', cursive;
+    font-size  : 16px;
+    font-weight: 600;
+}
+
+.carousel-img {
+    filter: brightness(0.5);
+    height: 600px;
+}
+
+.carousel-title {
+    max-width: 900px;
+}
+
+.carousel-h {
+    border-style  : double;
+    font-family   : 'Brush Script MT', cursive;
+    letter-spacing: 3px;
+    color         : #fd5d5d;
+    font-weight   : bold;
+}
+
+ .about-icon i {
+    color: #fd5d5d;
+
+}
+
+.about-heading h1 {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    font-family    : 'Brush Script MT', cursive;
+    color          : #fd5d5d;
+    font-weight    : 500;
+    font-size      : 5rem;
+}
+
+.about-heading h3 {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    font-family    : serif;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding    : 10px 15px;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: 600;
+    font-size  : 16px;
+    transition : .5s;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    /* color: var(--bs-navbar-active-color); */
+    color: #fd5d5d;
+}
+
+.carousel-caption {
+    position      : absolute;
+    right         : 15%;
+    bottom        : 8.25rem;
+    left          : 15%;
+    padding-top   : 1.25rem;
+    padding-bottom: 1.25rem;
+    color         : rgb(255, 255, 255);
+    text-align    : center;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 700;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+    margin-top   : 0;
+    margin-bottom: 0.5rem;
+    font-family  : "Petit Formal Script", cursive;
+    font-weight  : 700;
+    line-height  : 1.2;
+    color        : #2f2f2f;
+}
+
+
+.about-icon i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: 80px;
+   padding-top:50px ;
+}
+.about-info img{
+    width: 800px;
+    height: 900px;
+}
+
+.aboutUs{
+    background-color: #bbbd98 !important;
+}
+
+.aboutUs .aboutUs-info{
+    background-color: #fd5d5d;
+}
+
+.aboutUs-img{
+    background-image: url(imges/abimg.jpeg);
+     background-size: cover;
+}
+
+.aboutBride{
+    background-image: url(imges/bride.jpeg);
+    background-size: cover;
+}
+
+.btn-light-outline-0 {
+    background-color:#fd5d5d; ;
+    color: #fff;
+    border: 1px solid #fd5d5d;
+}
+
+.story-tittle h5{
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+     color          : #fd5d5d;
+    font-size      : 2rem;
+}
+
+.story-tittle h1{
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+   font-weight: 500;
+    font-size: 3rem;
+}
+
+.timeline-title h1{ 
+    font-weight: 700;
+}
+ .timeline-card{
+    display: block;
+    text-align: center;
+ }
+ #timeline {
+   background-color: #bbbd98 ;
+ }

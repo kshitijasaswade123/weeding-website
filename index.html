@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Petit+Formal+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light p-3">
+      <div class="container-fluid">
+        <h3 class="navbar-brand text-primary">
+          Mr<strong class="text-secondary">&</strong>Mrs
+        </h3>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="flex-grow-1"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rsvp</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="#" class="btn btn-danger fw-bolder p-2 btn-lg"
+              >Book Attendance</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="imges/img1.webp"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="p-5 mx-auto carousel-title">
+              <div
+                class="d-inline-block border-start-0 border-end-0 carousel-h mb-4"
+              >
+                <h4 class="text-white text-uppercase">
+                  We are getting married.
+                </h4>
+              </div>
+              <h1 class="display-1 text-capitalize text-white">
+                Heena <i class="fa-solid fa-heart"></i>Akshay
+              </h1>
+              <div
+                class="d-inline-block border-start-0 border-end-0 carousel-h mt-3"
+              >
+                <h5 class="text-white text-uppercase">june 28 2024</h5>
+              </div>
+            </div>
+            <button class="btn btn-danger" type="button">Rsvp</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imges/img2.jpeg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="p-5 mx-auto carousel-title">
+              <div
+                class="d-inline-block border-start-0 border-end-0 carousel-h"
+              >
+                <h4 class="text-white text-uppercase">
+                  We are getting married
+                </h4>
+              </div>
+              <h1 class="display-1 text-capitalize text-white">
+                Heena <i class="fa-solid fa-heart"></i>Akshay
+              </h1>
+              <div
+                class="d-inline-block border-start-0 border-end-0 carousel-h"
+              >
+                <h5 class="text-white text-uppercase">june 28 2024</h5>
+              </div>
+            </div>
+            <button class="btn btn-danger" type="button">Button</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imges/img3.jpeg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="p-5 mx-auto carousel-title">
+              <div
+                class="d-inline-block border-start-0 border-end-0 carousel-h"
+              >
+                <h4 class="text-white text-uppercase">
+                  We are getting married
+                </h4>
+              </div>
+              <h1 class="display-1 text-capitalize text-white">
+                Heena <i class="fa-solid fa-heart"></i>Akshay
+              </h1>
+              <div
+                class="d-inline-block border-start-0 border-end-0 carousel-h"
+              >
+                <h5 class="text-white text-uppercase">june 28 2024</h5>
+              </div>
+            </div>
+            <button class="btn btn-danger" type="button">Button</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="about">
+      <div class="about-heading">
+        <h1>Hello !</h1>
+        <h3>we invite you to celebrate our wedding.</h3>
+      </div>
+      <div class="d-flex p-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-5">
+              <div class="row">
+                <div class="col-8">
+                  <h1>Heena</h1>
+                  <p style="text-align: justify">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Tempore sequi eos animi quidem.
+                  </p>
+                </div>
+                <div class="col-4">
+                  <img src="imges/bride.jpeg" height="200" alt="bride" />
+                </div>
+              </div>
+            </div>
+            <div class="col-2 about-icon">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="col-5">
+              <div class="row">
+                <div class="col-4">
+                  <img src="imges/groom.jpeg" height="200" alt="bride" />
+                </div>
+                <div class="col-8">
+                  <h1>Akshay</h1>
+                  <p style="text-align: justify">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Tempore sequi eos animi quidem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid aboutUs">
+        <div class="row">
+          <div class="col-6 p-4">
+            <div class="aboutUs-img h-100 w-100"></div>
+          </div>
+          <div class="col-6 p-4">
+            <div class="aboutUs-title">
+              <h3>About Us</h3>
+              <h1>We Make Your Every Moment</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+            <div class="aboutUs-info">
+              <div class="d-flex p-2 ">
+                <button type="button" class="btn btn-light me-3 ">Bride info</button>
+                <button type="button" class="btn btn-light">Groom info</button>
+              </div>
+              <div class="d-flex ">
+                <div class="p-2"> 
+                  <img src="https://themewagon.github.io/mr-mrs/img/bride.jpg"
+                  alt="" width="100">
+                </div>
+                <div class="p-2 ">
+                  <h4>Heena</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <div class="d-flex p-2 ">
+                    <a href="#" class=" btn btn-light btn-light-outline-0 btn-sm-square  me-2"> <i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class=" btn btn-light btn-light-outline-0 btn-sm-square me-2">  <i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class=" btn btn-light btn-light-outline-0 btn-sm-square me-2"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" class=" btn btn-light btn-light-outline-0 btn-sm-square me-2"> <i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+
+              </div>
+             </div>
+             <div class="d-flex mt-3  ">
+              <div class="d-flex align-items-center  me-4 ">
+              <a href="#" class=" btn btn-light btn-light-outline-0 btn-sm-square me-2"> Read More</a>
+            </div>
+            <div class="d-flex align-items-center me-4  ">
+              <i class="fa-solid fa-phone-flip"></i>
+            </div>
+            <div class="align-items-center ">
+              <h6>Call Us Anytime</h6>
+              <h5>+123 456 7890</h5>
+            </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--story section-->
+    <div class="container  Story">
+      <div class="story-tittle  ">
+        <h5>Story</h5>
+        <h1>Our Love Story</h1>
+      </div>
+      <div class="row">
+        <div class="col-6 text-end border-0 border-top border-end  border-secondary p-4">
+          <div class="d-inline-flex align-items-center h-100 ">
+            <img src="https://themewagon.github.io/mr-mrs/img/story-1.jpg" alt="">
+
+          </div>
+
+        </div>
+        <div class="col-6  border-start border-top border-secondary p-4 pe-0">
+           <div class="d-flex flex-column justify-content-center h-100 bg-secondary p-4 ">
+            <h4 class="text-dark ">First Meet</h4>
+            <p class="text-uppercase  " style="letter-spacing: 3px; color: #fd5d5d ;">01 JAN 2050</p>
+            <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+           </div>
+        </div>
+
+      </div>
+      </div>
+      <!--Timeline-->
+      <div class="container-fluid mt-4 " id="timeline">
+        <div class=" container py-5  " >
+          <div class=" text-center timeline-title ">
+            <h1 class="  text-white ">Wedding Planning Timeline</h1>
+          </div>
+           </div>
+     
+      <div class="timline-content ">
+        <div class="row" >
+          <div class="col-3 border border-bottom-0 ">
+            <div class="timeline-card m-3">
+              <div class="d-inline-flex timeline-icon p-4 ">
+                <i class="fa-solid fa-menorah text-danger fa-3x "></i>
+              </div>
+              <p>10:00AM - 11:00AM</p>
+              <h1>Dinner</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+            </div>
+            
+           </div>
+          <div class="col-3  border  border-top-0  border-start-0 " >
+            <div class="timeline-card m-3">
+              <div class="d-inline-flex timeline-icon p-4">
+                <i class="fa-solid fa-photo-film text-danger fa-3x"></i>
+              </div>
+              <p>10:00AM - 11:00AM</p>
+              <h1>Dinner</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+            </div>
+           
+          </div>
+          <div class="col-3   border border-bottom-0 border-end-0 ">
+            <div class="timeline-card m-3">
+              <div class="d-inline-flex timeline-icon p-4">
+                <i class="fa-solid fa-dungeon text-danger fa-3x"></i>
+              </div>
+              <p>10:00AM - 11:00AM</p>
+              <h1>Dinner</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+            </div>
+            
+          </div>
+          <div class="col-3 border border-top-0 " >
+            <div class="timeline-card m-3">
+              <div class="d-inline-flex timeline-icon p-4 ">
+                <i class="fa-solid fa-ring text-danger fa-3x"></i>
+              </div>
+              <p>10:00AM - 11:00AM</p>
+              <h1>Dinner</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+            </div>
+            </div>
+           
+
+        </div>
+
+      </div>
+</div>
+<!--Gallery-->
+<div class="container my-5 " id="gallery">
+  <div class="gallery-heading text-center ">
+    <h1 class="fw-bold ">Wedding Gallery</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+  </div>
+  <div class="gallery-card my-4 ">
+    <div class="row">
+       <div class="col-3">
+        <div class="card w-18rem" >
+       <img src="https://themewagon.github.io/mr-mrs/img/gallery-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Wedding on the beach</h5>
+        <p class="card-text">June 28, 2024</p>
+       
+  </div>
+</div>
+</div>
+        <div class="col-3">
+       <div class="card w-18rem" >
+       <img src="https://themewagon.github.io/mr-mrs/img/gallery-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Wedding on the beach</h5>
+        <p class="card-text">June 28, 2024</p>
+       </div>
+        </div>
+        </div>
+         <div class="col-3">
+                <div class="card w-18rem" >
+       <img src="https://themewagon.github.io/mr-mrs/img/gallery-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Wedding on the beach</h5>
+        <p class="card-text">June 28, 2024</p>
+       </div>
+         </div>
+         </div>
+          <div class="col-3">
+           <div class="card w-18rem" >
+       <img src="https://themewagon.github.io/mr-mrs/img/gallery-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Wedding on the beach</h5>
+        <p class="card-text">June 28, 2024</p>
+      </div>
+          </div>
+     </div>
+</div>
+  </div>
+     <div class="gallery-card my-4 ">
+       <div class="row">
+       <div class="col-3">
+        <div class="card w-18rem" >
+       <img src="https://themewagon.github.io/mr-mrs/img/gallery-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Wedding on the beach</h5>
+        <p class="card-text">June 28, 2024</p>
+       
+  </div>
+</div>
+</div>
+        <div class="col-3">
+       <div class="card w-18rem" >
+       <img src="https://themewagon.github.io/mr-mrs/img/gallery-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Wedding on the beach</h5>
+        <p class="card-text">June 28, 2024</p>
+       </div>
+        </div>
+        </div>
+         <div class="col-3">
+                <div class="card w-18rem" >
+       <img src="https://themewagon.github.io/mr-mrs/img/gallery-7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Wedding on the beach</h5>
+        <p class="card-text">June 28, 2024</p>
+       </div>
+         </div>
+         </div>
+          <div class="col-3">
+           <div class="card w-18rem" >
+       <img src="https://themewagon.github.io/mr-mrs/img/gallery-8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Wedding on the beach</h5>
+        <p class="card-text">June 28, 2024</p>
+      </div>
+          </div>
+     </div>
+     </div>
+     </div>
+     <div class="gallery-heading text-center  my-4">
+      <h1 class="fw-700 ">Bridesmaids & Groomsmen</h1>
+      <p class=" d-block  fs-3 ">Lorem Ipsum is simply dummy text of the printing and typesetting Ipsum is simply dummy text of the printing and typesetting Ipsum is simply dummy text of the printing and typesetting</p>
+    </div>
+    <div class="gallery-card my-4 ">
+      <div class="row">
+         <div class="col-3">
+          <div class="card ">
+            <img src="https://themewagon.github.io/mr-mrs/img/bridesmaid-1.png" class="card-img" alt="...">
+            <div class="card-img-overlay text-center pb-5">
+              <h5 class="card-title text-dark   ">Card title</h5>
+              <h5 class="card-title text-dark ">Card title</h5>
+            </div>
+          </div>
+  </div>
+          <div class="col-3">
+            <div class="card ">
+              <img src="https://themewagon.github.io/mr-mrs/img/bridesmaid-team-2.png" class="card-img" alt="...">
+              <div class="card-img-overlay pt-5 ">
+                <h5 class="card-title text-white ">Card title</h5>
+                <h5 class="card-title text-white ">Card title</h5>
+              </div>
+            </div>
+          </div>
+           <div class="col-3">
+            <div class="card ">
+              <img src="https://themewagon.github.io/mr-mrs/img/bridesmaid-3.png" class="card-img" alt="...">
+              <div class="card-img-overlay pt-5 ">
+                <h5 class="card-title text-white ">Card title</h5>
+                <h5 class="card-title text-white ">Card title</h5>
+              </div>
+            </div>
+           </div>
+            <div class="col-3">
+              <div class="card ">
+                <img src="https://themewagon.github.io/mr-mrs/img/bridesmaid-4.png" class="card-img" alt="...">
+                <div class="card-img-overlay pt-5 ">
+                  <h5 class="card-title text-white ">Card title</h5>
+                  <h5 class="card-title text-white ">Card title</h5>
+                </div>
+              </div>
+       </div>
+  </div>
+    </div>
+       <div class="gallery-card my-4 ">
+         <div class="row">
+         <div class="col-3">
+          <div class="card ">
+            <img src="https://themewagon.github.io/mr-mrs/img/Groomsmen-1.png" class="card-img" alt="...">
+            <div class="card-img-overlay pt-5 ">
+              <h5 class="card-title text-white ">Card title</h5>
+              <h5 class="card-title text-white ">Card title</h5>
+            </div>
+          </div>
+  </div>
+          <div class="col-3">
+            <div class="card ">
+              <img src="https://themewagon.github.io/mr-mrs/img/Groomsmen-3.png" class="card-img" alt="...">
+              <div class="card-img-overlay pt-5 ">
+                <h5 class="card-title text-white ">Card title</h5>
+                <h5 class="card-title text-white ">Card title</h5>
+              </div>
+            </div>
+          </div>
+           <div class="col-3">
+            <div class="card ">
+              <img src="https://themewagon.github.io/mr-mrs/img/Groomsmen-1.png" class="card-img" alt="...">
+              <div class="card-img-overlay pt-5 ">
+                <h5 class="card-title text-white ">Card title</h5>
+                <h5 class="card-title text-white ">Card title</h5>
+              </div>
+            </div>
+           </div>
+            <div class="col-3">
+              <div class="card ">
+                <img src="https://themewagon.github.io/mr-mrs/img/Groomsmen-3.png" class="card-img" alt="...">
+                <div class="card-img-overlay pt-5 ">
+                  <h5 class="card-title text-white ">Card title</h5>
+                  <h5 class="card-title text-white ">Card title</h5>
+                </div>
+              </div>
+       </div>
+       </div>
+       </div>
+    </div>
+
+    
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
